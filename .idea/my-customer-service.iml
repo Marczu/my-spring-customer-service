@@ -3,12 +3,11 @@
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="Spring Application Context" removed="false">
-          <file>file://$MODULE_DIR$/src/main/java/WEB-INF/spring-mvc-demo-servlet1.xml</file>
-          <file>file://$MODULE_DIR$/src/main/java/applicationContext.xml</file>
-        </fileset>
         <fileset id="fileset2" name="Spring Application Context (2)" removed="false">
           <file>file://$MODULE_DIR$/src/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/WEB-INF/spring-servlet.xml</file>
+        </fileset>
+        <fileset id="web dispatcher servlet context" name="MVC dispatcher servlet context" removed="true">
           <file>file://$MODULE_DIR$/src/WEB-INF/spring-servlet.xml</file>
         </fileset>
       </configuration>
