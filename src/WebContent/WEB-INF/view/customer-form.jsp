@@ -17,6 +17,9 @@
 
         <form:form action="saveCustomer" modelAttribute="customer" method="post">
 
+            <%--Assosiate form with Customer's Id--%>
+            <form:hidden path="id"/>
+            
             <table>
                 <tbody>
                 <tr>
