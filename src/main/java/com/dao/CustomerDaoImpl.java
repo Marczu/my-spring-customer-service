@@ -36,4 +36,11 @@ public class CustomerDaoImpl implements CustomerDao {
         currentSession.save(customer);
     }
 
+    public Customer getCustomerById(int theId) {
+        Session currentSession = sessionFactory.getCurrentSession();
+
+        Customer customer = currentSession.get(Customer.class, theId );
+        return customer;
+    }
+
 }
