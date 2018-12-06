@@ -13,8 +13,14 @@
     </div>
     <div id="container">
         <div id="content">
-            <%--TABLE--%>
 
+            <%--BUTTON DO ADDING NEW CUSTOMER--%>
+            <input type="button" value="Add Customer"
+            onclick="window.location.href='showFormForAdd'; return false;"
+            class="add-button"
+            />
+
+            <%--TABLE--%>
             <table>
                 <tr>
                     <th>First Name</th>
